@@ -8,13 +8,13 @@
         public void MoveToX(int steps)
         {
             X = X + steps;
-            var db = new DataBaseService();
+            var db = new DataBase();
             db.SaveX(X);
         }
         public void MoveToY(int steps)
         {
             Y = Y + steps;
-            var db = new DataBaseService();
+            var db = new DataBase();
             db.SaveX(Y);
         }
     }

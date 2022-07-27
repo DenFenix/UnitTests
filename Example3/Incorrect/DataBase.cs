@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Example3.Incorrect
 {
-    public class DataBaseService
+    public class DataBase
     {
         public void SaveX(int steps) { }
         public void SaveY(int steps) { }

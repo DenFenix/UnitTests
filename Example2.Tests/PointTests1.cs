@@ -7,6 +7,15 @@ namespace Example2.Tests
     /// </summary>
     public class PointTests1
     {
+        /*
+            Equal	Verifies that two values are equal. There are various overloads that accepts int, string, DateTime, and other types of values.
+            Null	Verifies that an object is null.
+            True	Verifies that a condition is true.
+            False	Verifies that a condition is false.
+            IsType	Verifies that an object is of a given type.
+            IsAssignableFrom	Verifies that an object is of the given type or a derived type.
+        */
+
         [Fact]
         public void MoveToXTest()
         {
